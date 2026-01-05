@@ -13,7 +13,6 @@ const fs = require("fs");
 
 const TOKEN = process.env.TOKEN;
 
-";
 const CLIENT_ID = "1457618494035202048";
 const PREFIX = "h.";
 
