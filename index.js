@@ -1,3 +1,14 @@
+const express = require("express");
+const app = express();
+
+app.get("/", (req, res) => {
+  res.send("Hatsune Miku is online 💙");
+});
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+console.log(`Web server running on port ${PORT}`);
+});
 const {
   Client,
   GatewayIntentBits,
@@ -11,8 +22,8 @@ const {
 } = require("discord.js");
 const fs = require("fs");
 
-const TOKEN = "const TOKEN = process.env.TOKEN;
-";
+const TOKEN = process.env.TOKEN;
+
 const CLIENT_ID = "1457618494035202048";
 const PREFIX = "h.";
 
