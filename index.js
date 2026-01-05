@@ -11,7 +11,8 @@ const {
 } = require("discord.js");
 const fs = require("fs");
 
-const TOKEN = "const TOKEN = process.env.TOKEN;
+const TOKEN = process.env.TOKEN;
+
 ";
 const CLIENT_ID = "1457618494035202048";
 const PREFIX = "h.";
